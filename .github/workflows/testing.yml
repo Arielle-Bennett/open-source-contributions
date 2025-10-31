@@ -25,7 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  create_issue:
+  create_issue_1:
     name: Creat documentation review checklist reminder  
     runs-on: ubuntu-latest
 
@@ -41,7 +41,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-  create_issue:
+  create_issue_2:
     name: Creat documentation review checklist reminder  
     runs-on: ubuntu-latest
 
