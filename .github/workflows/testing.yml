@@ -24,35 +24,3 @@ jobs:
           filename: .github/ISSUE_TEMPLATE/ISSUE_TEMPLATE.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  create_issue_1:
-    name: Creat documentation review checklist reminder  
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Create an issue with the team compass review checklist 
-        id: create-innovation
-        uses: JasonEtco/create-an-issue@v2
-        with:
-          filename: .github/ISSUE_TEMPLATE/ISSUE_TEMPLATE.md
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-  create_issue_2:
-    name: Creat documentation review checklist reminder  
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Create an issue with the team compass review checklist 
-        id: create-innovation
-        uses: JasonEtco/create-an-issue@v2
-        with:
-          filename: .github/ISSUE_TEMPLATE/ISSUE_TEMPLATE.md
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
